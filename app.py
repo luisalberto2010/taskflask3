@@ -46,7 +46,7 @@ def prediction():
     return render_template("prediction.html", data=pred)
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=False)
     
 #to generate requirements run !python -m pipreqs.pipreqs
 
