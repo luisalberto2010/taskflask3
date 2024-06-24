@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jun 22 13:00:37 2024
-
-@author: luisa
-"""
-
-
 from markupsafe import escape
 from flask import Flask, render_template, request
 from keras.applications import ResNet50
